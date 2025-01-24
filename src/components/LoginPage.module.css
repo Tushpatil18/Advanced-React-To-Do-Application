@@ -1,0 +1,54 @@
+.loginContainer {
+    min-height: 100vh;
+    display: flex;
+    background-color: #eef6ef;
+    padding: 24px;
+  }
+  
+  .logoContainer {
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logoText {
+    color: #3f9142;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.96px;
+  }
+  
+  .logoIcon {
+    font-size: 32px;
+    color: #3f9142;
+    margin: 5px;
+  }
+
+  .form {
+    width: 100%;
+    margin-top: 8px;
+  }
+  
+  .textField {
+    margin-bottom: 16px;
+  }
+  
+  .textField input {
+    background-color: #ffffff;
+  }
+  
+  .submitButton {
+    margin-top: 24px;
+    padding: 12px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 500;
+    text-transform: none;
+    font-size: 16px;
+  }
+  
+  @media (max-width: 600px) {
+    .loginContainer {
+      padding: 16px;
+    }
+  }

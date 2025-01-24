@@ -1,0 +1,295 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #fbfdfc;
+    min-height: 100vh;
+    width: 100%;
+  }
+  
+  .navbar {
+    display: flex;
+    width: 100%;
+    padding: 12px 48px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fbfdfc;
+    border-bottom: 1px solid rgba(73, 110, 75, 0.1);
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  
+  .logoIcon {
+    font-size: 32px;
+    color: #3f9142;
+  }
+  
+  .logoText {
+    color: #3f9142;
+    letter-spacing: -0.96px;
+    font: 700 24px "Outfit", sans-serif;
+  }
+  
+  .headerActions {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+  
+  .mainContainer {
+    display: flex;
+    padding: 0 0 0 24px;
+    height: calc(100vh - 56px);
+  }
+  
+  .sidebar {
+    width: 280px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    background: linear-gradient(to top left,#0000 -6%,white -2.9%)    top right /300px 85px no-repeat    #eef6ef
+  }
+  
+  .profileSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .profileImage {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    object-fit: cover;
+  }
+  
+  .profileName {
+    color: #1b281b;
+    font: 500 15px "Outfit", sans-serif;
+  }
+  
+  .menuSection {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background: white;
+    padding-top: inherit;
+    padding-bottom: inherit;
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+  
+  .menuItem, .menuItemActive {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    color: #1b281b;
+    cursor: pointer;
+    font: 15px "Outfit", sans-serif;
+  }
+  
+  .menuItemActive {
+    background-color: rgba(63, 145, 66, 0.1);
+  }
+  
+  .addListMenuItem {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    color: #1b281b;
+    cursor: pointer;
+    margin-top: auto;
+    font: 15px "Outfit", sans-serif;
+    background: white;
+    padding-top: inherit;
+    padding-bottom: inherit;
+  }
+  
+  .statsSection {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 24px;
+    box-shadow: 0 1px 7px rgba(0, 0, 0, 0.1);
+  }
+  
+  .statsTitle {
+    color: #1b281b;
+    margin-bottom: 8px;
+    font: 20px "Outfit", sans-serif;
+  }
+  
+  .statsNumber {
+    color: #1b281b;
+    margin-bottom: 24px;
+    font: 32px "Outfit", sans-serif;
+  }
+  
+  .donutChart {
+    width: 151px;
+    height: 151px;
+    border-radius: 50%;
+    background: conic-gradient(#3f9142 var(--completed-percent), #cddccf var(--completed-percent));
+    margin: 0 auto 16px;
+  }
+  
+  .statsLegend {
+    display: flex;
+    gap: 28px;
+    color: #000;
+    font: 12px "Outfit", sans-serif;
+  }
+  
+  .mainContent {
+    flex: 1;
+    padding: 24px 36px;
+    background-color: #fbfdfc;
+    padding-right: 330px;
+  }
+  
+  .taskHeader {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .taskTitle {
+    color: rgba(20, 46, 21, 0.62);
+    font: 500 13px "Outfit", sans-serif;
+  }
+  
+  .addTaskSection {
+    border-top: 1px solid rgba(73, 110, 75, 0.2);
+    padding: 42px 20px;
+    background-image: linear-gradient(to bottom, rgb(70 143 73 / 7%), rgba(63, 145, 66, 0.26));
+  }
+  
+  .addTaskPlaceholder {
+    color: rgba(27, 40, 27, 0.72);
+    font: 15px "Outfit", sans-serif;
+  }
+
+  .addTaskTextArea {
+    width: 100%;
+    line-height: 1.5;
+    padding: 20px;
+    background-color: transparent;
+    border: none;
+    margin-bottom: 24px;
+  }
+
+  .addTaskTextArea:hover, .addTaskTextArea:focus {
+    box-sizing: border-box;
+    border-radius: 12px 12px 0 12px;
+    background: '#fff';
+    border: '1px solid rgba(27, 40, 27, 0.72)';
+    box-shadow: 0px 2px 24px;
+    outline: none;
+  }
+  
+  .taskActions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .taskIcons {
+    display: flex;
+    gap: 26px;
+  }
+  
+  .addTaskButton {
+    background-color: rgba(53, 121, 55, 0.16);
+    color: #2d7a30;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font: 500 15px "Outfit", sans-serif;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .taskList {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .taskItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 32px;
+    border-top: 2px solid rgba(73, 110, 75, 0.2);
+  }
+  
+  .taskItemContent {
+    display: flex;
+    align-items: center;
+  }
+    
+  .taskCheckbox, .taskCheckboxCompleted {
+    color: #1b281b;
+    font: 15px "Outfit", sans-serif;
+  }
+  
+  .taskCheckboxCompleted {
+    text-decoration: line-through;
+    opacity: 0.7;
+  }
+  
+  .taskLabel, .taskLabelCompleted {
+    color: #1b281b;
+    font: 15px "Outfit", sans-serif;
+    cursor: pointer;
+  }
+  
+  .taskLabelCompleted {
+    text-decoration: line-through;
+    opacity: 0.7;
+  }
+  
+  .completedSection {
+    margin-top: 24px;
+  }
+  
+  .completedHeader {
+    color: #1b281b;
+    margin-bottom: 16px;
+    font: 15px "Outfit", sans-serif;
+  }
+  
+  @media (max-width: 991px) {
+    .navbar {
+      padding: 12px 20px;
+    }
+    
+    .mainContainer {
+      padding: 0 20px;
+    }
+    
+    .sidebar {
+      width: 240px;
+    }
+    
+    .mainContent {
+      padding: 24px 20px;
+      padding-right: 280px;
+    }
+  }
+  
+  @media (max-width: 640px) {
+    .sidebar {
+      display: none;
+    }
+    
+    .mainContent {
+      padding: 16px;
+    }
+  }
