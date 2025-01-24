@@ -42,4 +42,35 @@ A responsive and feature-rich To-Do application built using React.js, Redux, Wea
   - Fetch API / Axios for Weather API requests
   - Example Weather API used: OpenWeatherMap or similar
 
+## **Setup and Installation**
+
+### **1. Clone the Repository**
+```bash
+git clone https://github.com/your-repository-link.git
+cd advanced-react-todo
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3.Configure the Environment
+```bash
+Create a .env file in the root directory and add your Weather API key:
+```
+
+
+4. Start the React app:
+
+   ```bash
+   npm start
+   ```
+
 ---
+### Output
+
+[View the project live](https://6793ca945de6296ad44ece8d--resonant-clafoutis-bb4474.netlify.app/)
+
+
