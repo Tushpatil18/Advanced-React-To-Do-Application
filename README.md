@@ -1,6 +1,6 @@
 # **Advanced React To-Do Application**
 
-A responsive and feature-rich To-Do application built using React.js, Redux, and an integrated external API to demonstrate advanced frontend development skills.
+A responsive and feature-rich To-Do application built using React.js, Redux, Weather API integration, and advanced state management.
 
 ---
 
@@ -15,13 +15,14 @@ A responsive and feature-rich To-Do application built using React.js, Redux, and
    - Mock login/logout functionality using Redux for state management.
    - Protect To-Do list behind authentication.
 
-3. **API Integration**
-   - Integrates with a public API to display relevant data (e.g., weather updates for outdoor tasks).
-   - Implements error handling for API requests.
+3. **Weather API Integration**
+   - Integrates with a public Weather API to display real-time weather updates.
+   - Displays relevant weather data alongside tasks, useful for tasks involving outdoor activities.
+   - Implements error handling for API requests, ensuring a seamless user experience.
 
 4. **Responsive Design**
    - Fully responsive and optimized for mobile, tablet, and desktop devices.
-   - Designed using CSS Grid, Flexbox, and optional CSS frameworks.
+   - Designed using CSS Grid, Flexbox, and optional CSS frameworks (e.g., Bootstrap or Material-UI).
 
 5. **Advanced State Management**
    - Utilizes Redux for global state management.
@@ -35,11 +36,10 @@ A responsive and feature-rich To-Do application built using React.js, Redux, and
   - React.js (with functional components and hooks)
   - Redux (for state management)
   - CSS (with Grid and Flexbox)
-  - Bootstrap/Material-UI (optional for styling)
+  - Bootstrap/Material-UI 
 
 - **API Integration:**
-  - Fetch API / Axios for API requests
+  - Fetch API / Axios for Weather API requests
+  - Example Weather API used: OpenWeatherMap or similar
 
 ---
-
-
