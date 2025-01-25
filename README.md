@@ -56,13 +56,7 @@ cd advanced-react-todo
    npm install
    ```
 
-3.Configure the Environment
-```bash
-Create a .env file in the root directory and add your Weather API key:
-```
-
-
-4. Start the React app:
+3. Start the React app:
 
    ```bash
    npm start
